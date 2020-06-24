@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Калбкулятор на vue.js</title>
+</head>
+<body>
+    <div id="app">
+        <div class="calk">
+        <input class="in" type="text"v-model = 'result' placeholder="0">
+        <button @click = 'input(numb)' class="number_button" v-for = 'numb in number'>{{numb}}</button>
+        <button @click = 'input(oper)' class="number_button" v-for = 'oper in operation'>{{oper}}</button>
+        <button @click ='reset' class="number_button">C</button>
+        <button @click ='calc' class="operat">=</button>
+        
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
