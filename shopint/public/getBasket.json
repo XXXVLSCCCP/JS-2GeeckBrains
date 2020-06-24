@@ -1,0 +1,76 @@
+{
+    "amount": 1,
+    "countGoods": 1,
+    "contents": [
+        {
+          "id_product": 2,
+          "category": 1,
+          "product_name": "Мышка",
+          "price": 5,
+          "image": "/img/mous.jpg"
+        },
+        {
+          "id_product": 9,
+          "category": 2,
+          "product_name": "Клавиатура",
+          "price": 119,
+          "image": "/img/keyboard.jpg"
+        },
+        {
+          "id_product": 4,
+          "category": 1,
+          "product_name": "Ноутбук",
+          "price": 169,
+          "image": "/img/nout.jpg"
+        },
+        {
+          "id_product": 10,
+          "category": 2,
+          "product_name": "Блок питания",
+          "price": 109,
+          "image": "/img/block.jpg"
+        },
+        {
+          "id_product": 6,
+          "category": 1,
+          "product_name": "Оперативная память",
+          "price": 199,
+          "image": "/img/pamyt.jpg"
+        },
+        {
+          "id_product": 8,
+          "category": 2,
+          "product_name": "Процессор",
+          "price": 119,
+          "image": "/img/processor.jpg"
+        },
+        {
+          "id_product": 1,
+          "category": 1,
+          "product_name": "Монитор",
+          "price": 179,
+          "image": "/img/monitor.jfif"
+        },
+        {
+          "id_product": 7,
+          "category": 2,
+          "product_name": "Корпус для компьютера",
+          "price": 109,
+          "image": "/img/korpus.jpg"
+        },
+        {
+          "id_product": 3,
+          "category": 1,
+          "product_name": "Материнская плата",
+          "price": 179,
+          "image": "/img/math.jpg"
+        },
+        {
+          "id_product": 5,
+          "category": 2,
+          "product_name": "Планшет",
+          "price": 129,
+          "image": "/img/planchet.jfif"
+        }
+      ]
+}
