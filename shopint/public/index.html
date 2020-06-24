@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Первая страница</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <a class="logo-a" href="#"><img class="logo" src="./img/logo.png"></img></a>
+            <h2 class="name-shop">Computer Hardware Store</h2>
+            <div class="cart">
+                <filter_el></filter_el>
+                
+                <cart ref="cart"></cart>
+            </div>
+        </header>
+        <nav class="menu-top">
+            <ul class="menu-ul">
+                <li class="men"><a href="index.html">SHOP</a></li>
+                <li class="men"><a href="./product/product.html">PRODUCT</a></li>
+                <li class="men"><a href="./contact/contact.html">СONTACTS</a></li>
+            </ul>
+
+        </nav>
+        <img src="./img/adw.png" alt="фото">
+        <main>
+            <products ref="products"></products>
+          
+        </main>
+    </div>
+    <footer class="footer"><h4>&copy;Все права защищены</h4>
+        <div class="social-icons">
+            <a class="icon" href="https://plus.google.com" target="_blank"><img src="./img/google.png" alt=""></a>
+            <a class="icon" href="https://www.linkedin-russia.ru" target="_blank"><img src="./img/inicon.png" alt=""></a>
+            <a class="icon" href="http://all-rss.ru" target="_blank"><img src="./img/rss.png" alt=""></a>
+            <a class="icon" href="https://ru-ru.facebook.com" target="_blank"><img src="./img/facebook.png" alt=""></a>
+        </div>
+    </footer>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="js/CartComp.js"></script>
+        <script src="js/ProdComp.js"></script>
+        <script src="js/FilterComp.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
